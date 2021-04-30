@@ -1,0 +1,91 @@
+.navbar
+{
+    margin-bottom: 0;
+    background: #0E0D0C;
+}
+
+.navbar li:hover
+{
+    background-color: #D41515;
+}
+
+.dropdown-menu
+{
+    background-color: #96703A;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a
+{
+    background-color: #D41515;
+}
+
+.btn, .btn-primary
+{
+    background-color: #96703A;
+}
+
+.jumbotron
+{
+    color: black;
+    font-family: 'Lucida Sans Unicode';
+    padding: 50px;
+    background-image: url("../imagenes/encabezado3.jpg");
+    background-size: cover;
+}
+
+.main
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.post
+{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #999;
+}
+
+.post .post-title
+{
+    color:  #f73912;
+}
+
+.post .thumb
+{
+    margin-right: 30px;
+    width: 30%;
+}
+
+.list-group a:hover
+{
+    background-color:  #D41515;
+    color: white;
+}
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active.focus 
+{
+    z-index:9;
+    color:#ffffff;
+    background-color: #2196f3;
+    border-color: #96703A;
+}
+ footer
+ {
+     border-top: 3px solid #FFFFFF;
+     background-color: #FFFFFF;
+     height: 40;
+ }
+@media screen and (max-width: 600px)
+{
+    .post .thumb
+    {
+        margin-right: 50;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+p {
+    margin-top: 50;
+}
